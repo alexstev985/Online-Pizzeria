@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cfa133828c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="img">
+            <img src="/images/logo.png" alt="">
+        </div>
+        <div>
+            <button class="hide" id="btn-hide"></button>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="/index.html">home</a>
+            <a class="active" href="/pages/login.html">login</a>
+            <a href="/pages/register.html">register</a>
+            <a href="/pages/contact.html">contact</a>
+        </nav>
+    </div>
+
+    
+    <div class="container" id="input">
+        <h1>Welcome back</h1>
+        <div class="input">
+            <label for="">User name</label> <input type="text" name="" id="input-username">
+        </div>
+        <div class="input">
+            <label for="">Password</label> <input type="password" name="" id="input-password"> <br>
+            <label for="">Show password</label> <input type="checkbox" id="show-password">
+        </div>
+            <button id="login">Login</button>
+    </div>
+    <script type="module" src="/javascript/login.js"></script>
+</body>
+</html>

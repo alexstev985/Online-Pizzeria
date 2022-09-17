@@ -1,0 +1,51 @@
+.container-login {
+    width: 1200px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+button {
+    background-color: #121618;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #FFC851;
+    color: #121618;
+}
+
+#input {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .container-login {
+        max-width: fit-content;
+        padding: 0px 5px;
+    }
+
+    .container-login img {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+    .container-login {
+        max-width: fit-content;
+        padding: 0px 5px;
+    }
+
+    .container-login img {
+        width: 50%;
+        
+    }
+}

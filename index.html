@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cfa133828c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/index.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="img">
+            <img src="/images/logo.png" alt="">
+        </div>
+        <div>
+            <button class="hide" id="btn-hide"></button>
+        </div>
+        <nav class="nav" id="nav">
+            <a class="active" href="/index.html">home</a>
+            <a href="/pages/login.html">login</a>
+            <a href="/pages/register.html">register</a>
+            <a href="/pages/contact.html">contact</a>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="slider">
+                <button class="preview" id="preview"><i class="fas fa-arrow-left"></i></button>
+                <div class="slider-content">
+                    <img id="slider-img" src="" alt="">
+                    <h3 id="slider-text"></h3>
+                </div>
+                <button class="next" id="next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-bottom">
+        <div class="container">
+            <div class="text-center">
+                <p>
+                    To order something from our menu, please <a href="/pages/login.html">login</a> or if you 
+                    don't have an accoutn, please <a href="/pages/register.html">register.</a> 
+                </p>
+
+                <div class="news-letter">
+                    <p>SUBSCRIBE FOR OUR NEWSLETTER</p>
+                    <input placeholder="Your e-mail" type="email" name="" id="news-letter">
+                    <button id="subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="/javascript/index.js"></script>
+</body>
+</html>

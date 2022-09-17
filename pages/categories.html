@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cfa133828c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/menagement.css">
+    <title>Welcome Administrator</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="img">
+            <img src="/images/logo.png" alt="">
+        </div>
+        <div>
+            <button class="hide" id="btn-hide"></button>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="/pages/menagement.html">products</a>
+            <a class="active" href="/pages/categories.html">categories</a>
+            <a href="/pages/orders.html">orders</a>
+            <a href="/pages/reservations.html">reservations</a>
+            <a href="/pages/users.html">users</a>
+            <a href="/pages/login.html">log out</a>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="container" id="container">
+            <button class="btn" id="add-product">Add category</button>
+            <div class="products" id="products">
+                
+            </div>
+
+            <div class="inputs" id="div-inputs">
+                <button id="close">x</button>
+                <div class="input">
+                    <label for="">Name</label> <input type="text" id="name-input">
+                </div>
+                <div class="input">
+                    <label for="">Image</label> <input type="text" id="image-input">
+                </div class="input">
+                <div class="input">
+                    <label for="">About</label> <textarea name="" id="ingridients-input" cols="20" rows="4"></textarea>
+                </div>
+                <button id="new-product">Add new category</button>
+            </div>
+        </div>
+
+        <button class="back-top" id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    </div>
+
+    <script type="module" src="/javascript/categories.js"></script>
+</body>
+</html>

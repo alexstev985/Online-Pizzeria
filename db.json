@@ -1,0 +1,980 @@
+{
+  "products": [
+    {
+      "title": "margherita",
+      "image": "/images/pizzas/margherita.gif",
+      "ingridients": "tomato sauce, fresh mozzarella and basil, a drizzle of olive oil, and a sprinkle of salt",
+      "price": 1000,
+      "categoryId": 1,
+      "likes": 5,
+      "id": 1
+    },
+    {
+      "title": "capricciosa",
+      "image": "/images/pizzas/capricciosa.gif",
+      "ingridients": "tomato puree, mozzarella, cremini mushrooms, artichoke hearts, black olives, and prosciutto cotto (Italian cooked ham)",
+      "price": 1200,
+      "categoryId": 1,
+      "likes": 4,
+      "id": 2
+    },
+    {
+      "title": "carbonara",
+      "image": "/images/pizzas/carbonara.gif",
+      "ingridients": "Topped with crisp pieces of salt bacon, tender mushrooms, plenty of gooey cheese, and finished with a perfectly cooked egg",
+      "price": 1600,
+      "categoryId": 1,
+      "likes": 2,
+      "id": 3
+    },
+    {
+      "title": "prosciutto",
+      "image": "/images/pizzas/prosciutto.gif",
+      "ingridients": "Thin slices of salty prosciutto cotto or cooked ham, creamy mozzarella cheese, and a robust tomato sauce spread over a basic pizza dough",
+      "price": 1400,
+      "categoryId": 1,
+      "likes": 2,
+      "id": 4
+    },
+    {
+      "title": "classic",
+      "image": "/images/burgers/1.png",
+      "ingridients": "classic burger with french fries",
+      "price": 300,
+      "categoryId": 2,
+      "likes": 3,
+      "id": 5
+    },
+    {
+      "title": "dubble",
+      "image": "/images/burgers/2.png",
+      "ingridients": "duble burger with slice of becon and fresh green salad",
+      "price": 650,
+      "categoryId": 2,
+      "likes": 1,
+      "id": 6
+    },
+    {
+      "title": "chicken",
+      "image": "/images/burgers/3.png",
+      "ingridients": "chicken burger in integral bun",
+      "price": 370,
+      "categoryId": 2,
+      "likes": 2,
+      "id": 7
+    },
+    {
+      "title": "spicy",
+      "image": "/images/burgers/4.png",
+      "ingridients": "spicy burger",
+      "price": 330,
+      "categoryId": 2,
+      "likes": 4,
+      "id": 8
+    },
+    {
+      "title": "bucatini",
+      "image": "/images/pastas/1.png",
+      "ingridients": "Italian pasta consisting of long, narrow tubes made of durum wheat flour",
+      "price": 320,
+      "categoryId": 3,
+      "likes": 2,
+      "id": 9
+    },
+    {
+      "title": "cannelloni",
+      "image": "/images/pastas/2.png",
+      "ingridients": "a tube shaped dry pasta about 7 cm / 3″ long and 2cm / 2/3″ wide",
+      "price": 380,
+      "categoryId": 3,
+      "likes": 2,
+      "id": 10
+    },
+    {
+      "title": "casunziei",
+      "image": "/images/pastas/3.png",
+      "ingridients": "beetroot filled pasta pieces in a half-moon shape, resembling mezzelune",
+      "price": 400,
+      "categoryId": 3,
+      "likes": 2,
+      "id": 11
+    },
+    {
+      "title": "farfalle",
+      "image": "/images/pastas/4.png",
+      "ingridients": "a pasta of semolina flour, all-purpose flour, and eggs",
+      "price": 430,
+      "categoryId": 3,
+      "likes": 2,
+      "id": 12
+    },
+    {
+      "title": "caesar",
+      "image": "/images/salads/2.gif",
+      "ingridients": "chopped romaine lettuce and garlicky croutons, tossed in a creamy dressing made with eggs, olive oil, lemon, Parmesan, Worcestershire sauce, and anchovies",
+      "price": 250,
+      "categoryId": 4,
+      "likes": 1,
+      "id": 13
+    },
+    {
+      "title": "eggs salad",
+      "image": "/images/salads/3.png",
+      "ingridients": "Fried eggs, scrambled eggs, sliced boiled eggs and egg salad (a mix of chopped cooked egg and mustard and mayonnaise)",
+      "price": 280,
+      "categoryId": 4,
+      "likes": 2,
+      "id": 14
+    },
+    {
+      "title": "panzanella",
+      "image": "/images/salads/6.png",
+      "ingridients": "stale, dried bread that's rehydrated from a dressing of sweet tomato juices, vinegar and plenty of olive oil",
+      "price": 310,
+      "categoryId": 4,
+      "likes": 3,
+      "id": 15
+    },
+    {
+      "title": "caprese",
+      "image": "/images/salads/8.png",
+      "ingridients": "a simple Italian salad, made of sliced fresh mozzarella, tomatoes, and sweet basil, seasoned with salt, and olive oil",
+      "price": 290,
+      "categoryId": 4,
+      "likes": 1,
+      "id": 16
+    },
+    {
+      "title": "wine",
+      "image": "/images/drinks/1.png",
+      "ingridients": "a fine red wine",
+      "price": 730,
+      "categoryId": 5,
+      "likes": 2,
+      "id": 17
+    },
+    {
+      "title": "ale",
+      "image": "/images/drinks/2.png",
+      "ingridients": "brewed by fast fermentation with a quick-acting yeast at relatively high temperatures",
+      "price": 510,
+      "categoryId": 5,
+      "likes": 1,
+      "id": 18
+    },
+    {
+      "title": "beer",
+      "image": "/images/drinks/3.png",
+      "ingridients": "the best home brewing light beer",
+      "price": 230,
+      "categoryId": 5,
+      "likes": 3,
+      "id": 19
+    },
+    {
+      "title": "martini",
+      "image": "/images/drinks/4.png",
+      "ingridients": "something from our coctail bar",
+      "price": 530,
+      "categoryId": 5,
+      "likes": 1,
+      "id": 20
+    },
+    {
+      "title": "amaretti",
+      "image": "/images/desserts/1.png",
+      "ingridients": "ground almonds or almond paste, along with sugar and egg whites",
+      "price": 270,
+      "categoryId": 6,
+      "likes": 1,
+      "id": 21
+    },
+    {
+      "title": "bostrengo",
+      "image": "/images/desserts/2.png",
+      "ingridients": "a winter rice cake that is scrumptious served as a sweet",
+      "price": 220,
+      "categoryId": 6,
+      "likes": 1,
+      "id": 22
+    },
+    {
+      "title": "chocolate cake",
+      "image": "/images/desserts/3.png",
+      "ingridients": "four-layer fudge cake with chocolate icing",
+      "price": 280,
+      "categoryId": 6,
+      "likes": 2,
+      "id": 23
+    },
+    {
+      "title": "budino",
+      "image": "/images/desserts/4.png",
+      "ingridients": "butter, brown sugar, heavy cream, egg yolks, and vanilla pudding",
+      "price": 260,
+      "categoryId": 6,
+      "likes": 1,
+      "id": 24
+    },
+    {
+      "title": "diablo",
+      "image": "/images/pizzas/diablo.gif",
+      "ingridients": "spicy meatballs, spicy pepperoni, and parma ham",
+      "price": 2000,
+      "categoryId": 1,
+      "likes": 4,
+      "id": 25
+    },
+    {
+      "title": "cheese and bacon",
+      "image": "/images/burgers/6.png",
+      "ingridients": "burger with melted cheese and grilled bacon",
+      "price": 390,
+      "categoryId": 2,
+      "likes": 4,
+      "id": 26
+    },
+    {
+      "title": "pepperoni",
+      "image": "/images/pizzas/pepperoni.gif",
+      "ingridients": "a meat mixture of beef and pork that has been cured and seasoned with paprika and chili powder",
+      "price": 1500,
+      "categoryId": 1,
+      "likes": 0,
+      "id": 27
+    },
+    {
+      "title": "saporita",
+      "image": "/images/pizzas/saporita.gif",
+      "ingridients": "Pelati tomato sauce with fresh herbs and mozzarella",
+      "price": 1300,
+      "categoryId": 1,
+      "likes": 0,
+      "id": 28
+    },
+    {
+      "title": "vincent",
+      "image": "/images/pizzas/vincent.gif",
+      "ingridients": "a basic dough, raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil",
+      "price": 1700,
+      "categoryId": 1,
+      "likes": 0,
+      "id": 29
+    },
+    {
+      "title": "creamy",
+      "image": "/images/burgers/5.png",
+      "ingridients": "Burger with cream, onion rings and green salad ",
+      "price": 350,
+      "categoryId": 2,
+      "likes": 1,
+      "id": 30
+    },
+    {
+      "title": "veggie",
+      "image": "/images/burgers/7.png",
+      "ingridients": "beans, especially soybeans and tofu, nuts, grains, seeds or fungi such as mushrooms or mycoprotein",
+      "price": 410,
+      "categoryId": 2,
+      "likes": 1,
+      "id": 31
+    },
+    {
+      "title": "quinoa",
+      "image": "/images/burgers/8.png",
+      "ingridients": "plant-based quinoa and black beans",
+      "price": 430,
+      "categoryId": 2,
+      "likes": 1,
+      "id": 32
+    },
+    {
+      "title": "casunziei",
+      "image": "/images/pastas/5.png",
+      "ingridients": "beetroots (oven roasted and peeled)\nricotta cheese and fresh goats cheese.\nSalt and freshly ground black pepper to taste.",
+      "price": 360,
+      "categoryId": 3,
+      "likes": 0,
+      "id": 33
+    },
+    {
+      "title": "meatballs",
+      "image": "/images/pastas/6.png",
+      "ingridients": "combine beef with bread crumbs, parsley, Parmesan, egg, garlic, 1 teaspoon salt, and red pepper flakes",
+      "price": 450,
+      "categoryId": 3,
+      "likes": 0,
+      "id": 34
+    },
+    {
+      "title": "pistacchio",
+      "image": "/images/pastas/7.png",
+      "ingridients": "pistachio kernels, chopped in a food processor + some extra pistachios for garnishing, chopped with a knife.",
+      "price": 390,
+      "categoryId": 3,
+      "likes": 0,
+      "id": 35
+    },
+    {
+      "title": "fettuccine",
+      "image": "/images/pastas/8.png",
+      "ingridients": "butter, heavy cream, and parmesan cheese",
+      "price": 350,
+      "categoryId": 3,
+      "likes": 0,
+      "id": 36
+    },
+    {
+      "title": "spinach",
+      "image": "/images/salads/7.png",
+      "ingridients": "chopped pear, oil, vinegar, mustard and honey",
+      "price": 270,
+      "categoryId": 4,
+      "likes": 0,
+      "id": 37
+    },
+    {
+      "title": "СAPPUCCINO",
+      "image": "/images/drinks/9.png",
+      "ingridients": "",
+      "price": 200,
+      "categoryId": 5,
+      "likes": 0,
+      "id": 38
+    },
+    {
+      "title": "apple cake",
+      "image": "/images/desserts/5.png",
+      "ingridients": "sour apples baked in a dough made from sugar, butter, flour, eggs, and baking powder",
+      "price": 250,
+      "categoryId": 6,
+      "likes": 0,
+      "id": 39
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "pizzas",
+      "image": "/images/pizzas/diablo.gif",
+      "about": "original italian recepies"
+    },
+    {
+      "id": 2,
+      "name": "burgers",
+      "image": "/images/burgers/8.png",
+      "about": "burger flavors from all around the world"
+    },
+    {
+      "id": 3,
+      "name": "pastas",
+      "image": "/images/pastas/5.png",
+      "about": "perfect al dente pastas"
+    },
+    {
+      "id": 4,
+      "name": "salads",
+      "image": "/images/salads/8.png",
+      "about": "always fresh salads"
+    },
+    {
+      "id": 5,
+      "name": "drinks",
+      "image": "/images/drinks/1.png",
+      "about": "best wines from our cellar"
+    },
+    {
+      "id": 6,
+      "name": "desserts",
+      "image": "/images/desserts/3.png",
+      "about": "delecious desserts"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Aleksandar",
+      "lastName": "Stevanovic",
+      "email": "aca@gmail.com",
+      "userName": "aca",
+      "password": "123",
+      "picture": "/images/cv.jpg",
+      "status": "admin",
+      "id": 1
+    },
+    {
+      "firstName": "Nikola",
+      "lastName": "Stevanovic",
+      "email": "nikola@gmail.com",
+      "userName": "nikola",
+      "password": "456",
+      "picture": "/images/user.png",
+      "status": "",
+      "id": 2
+    },
+    {
+      "firstName": "Petar",
+      "lastName": "Petrovic",
+      "email": "petar@gmail.com",
+      "userName": "petar",
+      "password": "789",
+      "picture": "/images/user.png",
+      "status": "",
+      "id": 3
+    },
+    {
+      "firstName": "Marko",
+      "lastName": "Markovic",
+      "emali": "marko@gmail.com",
+      "userName": "marko",
+      "password": "147",
+      "picture": "/images/user.png",
+      "status": "",
+      "id": 4
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Antic",
+      "email": "ana@gmail.com",
+      "userName": "ana",
+      "password": "ana",
+      "picture": "/images/user_female.png",
+      "status": "",
+      "id": 5
+    },
+    {
+      "firstName": "Marija",
+      "lastName": "Peric",
+      "email": "marija@mail.com",
+      "userName": "marija",
+      "password": "marija",
+      "picture": "/images/user_female.png",
+      "status": "",
+      "id": 6
+    },
+    {
+      "firstName": "Rada",
+      "lastName": "Radovic",
+      "email": "rada@mail.com",
+      "userName": "rada",
+      "password": "rada",
+      "picture": "/images/user_female.png",
+      "status": "",
+      "id": 7
+    },
+    {
+      "firstName": "Katarina",
+      "lastName": "Petrovic",
+      "email": "kaca@mail.com",
+      "userName": "kaca",
+      "password": "kaca",
+      "picture": "/images/user_female.png",
+      "status": "",
+      "id": 8
+    },
+    {
+      "firstName": "Milan",
+      "lastName": "Petrovic",
+      "email": "milan@mail.com",
+      "userName": "milan",
+      "password": "milan",
+      "picture": "/images/user.png",
+      "status": "",
+      "id": 9
+    },
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john@mail.com",
+      "userName": "john",
+      "password": "john",
+      "picture": "/images/user.png",
+      "status": "",
+      "id": 10
+    }
+  ],
+  "newsletter": [
+    {
+      "id": 1,
+      "mail": "somebody@gmail.com"
+    },
+    {
+      "mail": "abcd@mail.com",
+      "id": 2
+    },
+    {
+      "mail": "neko@mail.com",
+      "id": 3
+    },
+    {
+      "mail": "nekoDrugi@mail.com",
+      "id": 4
+    },
+    {
+      "mail": "mika@mail.com",
+      "id": 5
+    }
+  ],
+  "likedProducts": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "productId": 7,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 5,
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "productId": 14,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 18,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "productId": 2,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "productId": 8,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "productId": 10,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "productId": 15,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "productId": 19,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "productId": 23,
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "productId": 25,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "productId": 25,
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "productId": 26,
+      "id": 16
+    },
+    {
+      "userId": 8,
+      "productId": 3,
+      "id": 17
+    },
+    {
+      "userId": 8,
+      "productId": 11,
+      "id": 18
+    },
+    {
+      "userId": 8,
+      "productId": 25,
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "productId": 2,
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "productId": 6,
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "productId": 12,
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "productId": 17,
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "productId": 20,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "productId": 24,
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "productId": 22,
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "productId": 21,
+      "id": 27
+    },
+    {
+      "userId": 6,
+      "productId": 4,
+      "id": 28
+    },
+    {
+      "userId": 6,
+      "productId": 9,
+      "id": 29
+    },
+    {
+      "userId": 6,
+      "productId": 13,
+      "id": 30
+    },
+    {
+      "userId": 6,
+      "productId": 16,
+      "id": 31
+    },
+    {
+      "userId": 7,
+      "productId": 1,
+      "id": 32
+    },
+    {
+      "userId": 7,
+      "productId": 8,
+      "id": 33
+    },
+    {
+      "userId": 7,
+      "productId": 17,
+      "id": 34
+    },
+    {
+      "userId": 7,
+      "productId": 25,
+      "id": 35
+    },
+    {
+      "userId": 9,
+      "productId": 3,
+      "id": 36
+    },
+    {
+      "userId": 9,
+      "productId": 11,
+      "id": 37
+    },
+    {
+      "userId": 7,
+      "productId": 23,
+      "id": 38
+    },
+    {
+      "userId": 7,
+      "productId": 26,
+      "id": 39
+    },
+    {
+      "userId": 4,
+      "productId": 4,
+      "id": 40
+    },
+    {
+      "userId": 4,
+      "productId": 5,
+      "id": 41
+    },
+    {
+      "userId": 4,
+      "productId": 15,
+      "id": 42
+    },
+    {
+      "userId": 4,
+      "productId": 19,
+      "id": 43
+    },
+    {
+      "userId": 4,
+      "productId": 26,
+      "id": 44
+    },
+    {
+      "userId": 2,
+      "productId": 10,
+      "id": 45
+    },
+    {
+      "userId": 6,
+      "productId": 14,
+      "id": 46
+    },
+    {
+      "userId": 6,
+      "productId": 1,
+      "id": 47
+    },
+    {
+      "userId": 5,
+      "productId": 15,
+      "id": 48
+    },
+    {
+      "userId": 2,
+      "productId": 1,
+      "id": 49
+    },
+    {
+      "userId": 2,
+      "productId": 8,
+      "id": 50
+    },
+    {
+      "userId": 2,
+      "productId": 12,
+      "id": 51
+    },
+    {
+      "userId": 10,
+      "productId": 2,
+      "id": 52
+    },
+    {
+      "userId": 10,
+      "productId": 7,
+      "id": 53
+    },
+    {
+      "userId": 10,
+      "productId": 9,
+      "id": 54
+    },
+    {
+      "userId": 10,
+      "productId": 26,
+      "id": 55
+    },
+    {
+      "userId": 10,
+      "productId": 30,
+      "id": 56
+    },
+    {
+      "userId": 10,
+      "productId": 31,
+      "id": 57
+    },
+    {
+      "userId": 10,
+      "productId": 32,
+      "id": 58
+    },
+    {
+      "userId": 10,
+      "productId": 5,
+      "id": 59
+    },
+    {
+      "userId": 6,
+      "productId": 8,
+      "id": 60
+    },
+    {
+      "userId": 10,
+      "productId": 19,
+      "id": 61
+    }
+  ],
+  "comments": [
+    {
+      "userId": 3,
+      "productId": 3,
+      "comment": "I love it",
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "productId": 3,
+      "comment": "Very delicious",
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "productId": 7,
+      "comment": "Fantastic burger",
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "productId": 14,
+      "comment": "Excellent salad",
+      "id": 4
+    },
+    {
+      "userId": 9,
+      "productId": 19,
+      "comment": "nice and cold craft beer",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "productId": 1,
+      "comment": "My favorite pizza",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "customer": "Marija Peric",
+      "items": [
+        "margherita",
+        "capricciosa",
+        "martini"
+      ],
+      "pieces": [
+        "1",
+        "1",
+        "1"
+      ],
+      "id": 1
+    },
+    {
+      "customer": "Nikola Stevanovic",
+      "items": [
+        "carbonara",
+        "spicy"
+      ],
+      "pieces": [
+        "2",
+        "3"
+      ],
+      "id": 2
+    },
+    {
+      "customer": "Nikola Stevanovic",
+      "items": [
+        "chocolate cake"
+      ],
+      "pieces": [
+        "2"
+      ],
+      "id": 3
+    },
+    {
+      "customer": "John Smith",
+      "items": [
+        "dubble",
+        "prosciutto",
+        "bucatini"
+      ],
+      "pieces": [
+        "1",
+        "1",
+        "2"
+      ],
+      "id": 4
+    },
+    {
+      "customer": "John Smith",
+      "items": [
+        "creamy"
+      ],
+      "pieces": [
+        "3"
+      ],
+      "id": 5
+    },
+    {
+      "customer": "John Smith",
+      "items": [
+        "margherita",
+        "caprese",
+        "beer"
+      ],
+      "pieces": [
+        "1",
+        "1",
+        "1"
+      ],
+      "id": 6
+    }
+  ],
+  "reservations": [
+    {
+      "name": "Aleksandar",
+      "phone": "0123456",
+      "date": "2022-09-10",
+      "time": "19:30",
+      "numberOfPeople": 4,
+      "id": 1
+    },
+    {
+      "name": "Nikola",
+      "phone": "0123456789",
+      "date": "2022-09-11",
+      "time": "20:00",
+      "numberOfPeople": 5,
+      "id": 2
+    },
+    {
+      "name": "Dragana",
+      "phone": "0641234567",
+      "date": "2022-09-17",
+      "time": "20:00",
+      "numberOfPeople": 3,
+      "id": 3
+    },
+    {
+      "name": "Jelena",
+      "phone": "060987654",
+      "date": "2022-09-26",
+      "time": "19:00",
+      "numberOfPeople": 6,
+      "id": 4
+    },
+    {
+      "name": "Mirko",
+      "phone": "062147852",
+      "date": "2022-09-23",
+      "time": "20:30",
+      "numberOfPeople": 4,
+      "id": 5
+    }
+  ]
+}

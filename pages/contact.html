@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cfa133828c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="img">
+            <img src="/images/logo.png" alt="">
+        </div>
+        <div>
+            <button class="hide" id="btn-hide"></button>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="/index.html">home</a>
+            <a href="/pages/login.html">login</a>
+            <a href="/pages/register.html">register</a>
+            <a class="active" href="/pages/contact.html">contact</a>
+        </nav>
+    </div>
+
+    
+    <div class="container">
+        <div class="contact">
+            <div class="icons">
+                <div class="icon">
+                    <i class="fas fa-phone"></i> +123 456 789
+                </div>
+                <div class="icon">
+                    <i class="fas fa-envelope"></i> vincentpizza@mail.com
+                </div>
+                <div class="icon">
+                    <i class="fas fa-map-marker-alt"></i> Some Awesome Street 1
+                </div>
+                <div class="icon">
+                    <p>Monday-Thursday: <br> 11:00am-10:00pm</p>
+                    <p>Friday and Saturday: <br> 11:00am-01:00am</p>
+                    <p>Sunday: <br> Closed</p>
+                </div>
+                <div class="divider"></div>
+                <div class="social-icons">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-dribbble"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="images"></div>
+            <div class="reservation" id="input">
+                <h1>Make a reservation</h1>
+                <div class="input">
+                    <label for="">Name</label> <input type="text" name="" id="name">
+                </div>
+                <div class="input">
+                    <label for="">Phone</label> <input type="number" name="" id="phone">
+                </div>
+                <div class="input">
+                    <label for="">Date</label> <input type="date" name="" id="date">
+                </div>
+                <div class="input">
+                    <label for="">Time</label> <input type="time" name="" id="time">
+                </div>
+                <div class="input">
+                    <label for="">Number of people</label> <input type="number" name="" id="num-people">
+                </div>
+                <button id="reservation">Book a table</button>
+            </div>
+            <p class="icon" id="message"></p>
+        </div>
+
+        <div class="contact">
+            <div class="map">
+                <iframe class="map-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6905.823905880758!2d21.98323786925442!3d43.30292718390812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b01e92aeb02d%3A0xa9a42a1b35954cea!2z0KLQvtC_0LvQuNGH0LrQsCwg0J3QuNC60L7Qu9CwINCi0LXRgdC70LA!5e0!3m2!1ssr!2srs!4v1661718065483!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="images2"></div>
+        </div>
+    </div>
+
+    <button class="back-top" id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    
+    <script type="module" src="/javascript/contact.js"></script>
+</body>
+</html>
